@@ -3,6 +3,21 @@
 
 <br/>
 
+**도커 명령어**
+
+|옵션|설명|
+|:--: |:-- |
+| -d  |detached mode (백그라운드 모드)   |
+|-p   |Host와 컨테이너의 Port를 연결 (fowarding)   |
+|  -v | Host와 컨테이너의 Directory 연결 (마운트)  |
+|-e   | 컨테이너 내에서 사용할 환경변수 설정  |
+|-it   | -i와 -t를 동시에 사용한 것으로 터미널 입력을 위한 옵션  |
+|--rm   | 프로세스 종료시 컨테이너 자동 제거  |
+|--link   |  컨테이너 연결[컨테이너명:별칭] |
+|--name   | 컨테이너 이름 설정  |
+
+<BR/>
+
 **도커 실행중인지 확인** **`docker version`**
 
 ```
@@ -115,7 +130,7 @@ C:\Users\bactoria>
 
 <BR/>
 
-**종료된 컨테이너 재실행하기** **`docker start myUbuntu`**
+**종료된 우분투 컨테이너 실행하기** **`docker start myUbuntu`**
 
 ```
 C:\Users\bactoria>docker start myUbuntu
@@ -126,7 +141,7 @@ C:\Users\bactoria>
 
 <BR/>
 
-**컨테이너 접속하기** **`docker attach myUbuntu` + `Enter X2`**
+**우분투 컨테이너 접속하기** **`docker attach myUbuntu` + `Enter X2`**
 
 ```
 C:\Users\bactoria>docker attach myUbuntu
@@ -136,7 +151,7 @@ root@be76370e89aa:/#
 
 <BR/>
 
-**컨테이너 빠져나가기** **`Ctrl+p` + `Ctrl+q`**  
+**우분투 컨테이너 빠져나가기** **`Ctrl+p` + `Ctrl+q`**  
 (컨테이너 종료하지 않음)
 
 ```
@@ -148,7 +163,7 @@ C:\Users\bactoria>
 
 <BR/>
 
-**실행중인 컨테이너 확인하기** **`docker ps`**
+**실행중인 모든 컨테이너 확인하기** **`docker ps`**
 
 ```
 C:\Users\bactoria>docker ps
@@ -160,7 +175,7 @@ C:\Users\bactoria>
 
 <BR/>
 
-**컨테이너 종료하기** **`docker stop myUbuntu`**
+**우분투 컨테이너 종료하기** **`docker stop myUbuntu`**
 
 ```
 C:\Users\bactoria>docker stop myUbuntu
@@ -172,7 +187,7 @@ C:\Users\bactoria>
 <BR/>
 
 
-**이미지 삭제하기** **`docker rmi ubuntu:16.04`**  
+**이미지 제거하기** **`docker rmi ubuntu:16.04`**  
 (삭제안됨)
 
 
@@ -187,7 +202,8 @@ C:\Users\bactoria>
 <BR/>
 
 
-**컨테이너 삭제하기** **`docker rm myUbuntu`**
+**컨테이너 제거하기** **`docker rm myUbuntu`**
+(이미지 제거하려면 컨테이너 먼저 제거해야 함)
 
 ```
 C:\Users\bactoria>docker rm myUbuntu
@@ -198,7 +214,8 @@ C:\Users\bactoria>
 
 <BR/>
 
-**컨테이너 삭제 확인** **`docker ps -a`**
+**컨테이너 제거 확인** **`docker ps -a`**
+(삭제되어서 없어졌을거임)
 
 ```
 C:\Users\bactoria>docker ps -a
@@ -209,7 +226,7 @@ C:\Users\bactoria>
 
 <BR/>
 
-**로컬 이미지 보기** **`docker images`**
+**이미지 보기** **`docker images`**
 
 ```
 C:\Users\bactoria>docker images
@@ -239,14 +256,31 @@ C:\Users\bactoria>
 
 <br/>
 <br/>
-<br/>
 
+
+무에서 유를 창조하고
+
+다시 무로 돌아갔다.
+
+안보고 우분투 컨테이너 생성까지 가즈아~
+
+<br/>
+<br/>
 
 ### Issues
 
 * **컨테이너 attach 안될때**
-restart 하고나서 다시 attach 붙이자.
+컨테이너 restart 하고나서 다시 attach 붙이자.
 ( attach 명령 후 엔터 한번 더눌러 줘야함. )
 
-* 도커이미지 갑자기 날라갈때
+<br/>
+
+* **도커이미지 갑자기 날라갈때**
 이건 hyper에 vm이랑 관련된거같은데.. 자세히 몰겠음. 한번씩 맛탱이가 가던데
+
+<br/>
+
+* **`docker version`에서 Server가 안뜰 때**
+hyper-V 관리자를 열어 가상머신이 실행중인지 확인
+
+ ![](assets/markdown-img-paste-20180329231709148.png)
