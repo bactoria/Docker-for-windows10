@@ -31,16 +31,15 @@
 
 <br/>
 
-### 2. docker 다운로드
 
-**1) cmd에 입력**
+**docker 설치**
 ```
 choco install docker-for-windows --ignore-checksums -y
 ```
 
 <br/>
 
-**2) 환경변수 추가**
+**환경변수 추가**
 
 ```
 setx path=%path%;C:\Program Files\Docker\Docker\resources\bin
@@ -48,11 +47,11 @@ setx path=%path%;C:\Program Files\Docker\Docker\resources\bin
 
 <br/>
 
-**3) cmd 껐다 키자~**
+**cmd 껐다 키자~**
 
 <br/>
 
-**4) docker 버전확인** **`docker version`**
+**docker 버전확인** **`docker version`**
 
 ```
 C:\Users\bactoria>docker version
@@ -95,7 +94,7 @@ C:\Users\bactoria>
 **Hyper-V 설정**
 ![](assets/markdown-img-paste-20180325135122737.png)
 
-`Hyper-V` 가능하게 할거냐? 를 묻는데
+`Hyper-V` 가능하게 할거냐? 를 묻는다면
 
 Ok 누르자.
 
