@@ -78,6 +78,11 @@ Server:
 C:\Users\bactoria>
 ```
 
+![](assets/markdown-img-paste-20180325141838700.png)
+
+<br/>
+
+
 <br/>
 
 **Docker for Windows.exe 실행하기**
