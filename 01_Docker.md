@@ -3,18 +3,25 @@
 
 ![](assets/markdown-img-paste-20180328001824435.png)
 
-**Client / Server**
+<br/>
 
-![](assets/markdown-img-paste-20180325141838700.png)
+## docker ?
 
+도커란 컨테이너를 이용하여 어플리케이션을 실행, 개발, deploy를 수행하는 플랫폼이다.
 
 <br/>
 
-**도커 명령어**
+### image ?
 
-```
-docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]
-```
+image 란 어플리케이션을 실행시키기 위한 라이브러리, 환경설정 등을 포함한 실행가능한 패키지이다.
+
+컨테이너란 이미지의 instance이다.
+
+<BR/>
+
+<br/>
+
+![](assets/markdown-img-paste-20180329143342816.png)
 
 <br/>
 
@@ -30,3 +37,8 @@ docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]
 |--name   | 컨테이너 이름 설정  |
 
 <BR/>
+
+
+### 참고자료
+
+https://www.redhat.com/ko/topics/containers/whats-a-linux-container
