@@ -10,7 +10,6 @@
 &nbsp;
 
 ### 3. [도커 명령어 익히기](./03.%20Docker-command.md)
-* [Ubuntu]
 
 &nbsp;
 
