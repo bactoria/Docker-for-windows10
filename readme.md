@@ -16,6 +16,7 @@
 ### 4. Dockerfile
 
 * [Redis](./04_01.%20Redis-in-docker.md)
+* [Anaconda3](./04_02.%20Anaconda3-in-docker.md)
 
 &nbsp;
 
