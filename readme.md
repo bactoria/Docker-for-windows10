@@ -23,5 +23,6 @@
 ### 5. Tips
 
 * [특정 port 추가로 개방시키기](./05_01.%20특정%20port%20추가로%20개방시키기.md)
+* [pgrep 시, command not found 해결 방법](05_02.%20pgrep시,%20command%20not%20found%20해결%20방법.md)
 
 &nbsp;
