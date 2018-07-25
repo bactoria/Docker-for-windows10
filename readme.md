@@ -24,5 +24,6 @@
 
 * [특정 port 추가로 개방시키기](./05_01.%20특정%20port%20추가로%20개방시키기.md)
 * [pgrep 시, command not found 해결 방법](05_02.%20pgrep시,%20command%20not%20found%20해결%20방법.md)
+* [Hyper-V를 D드라이브로 옮기기](05_03.%20Hyper-V를%20D드라이브로%20옮기기.md)
 
 &nbsp;
