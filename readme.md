@@ -17,6 +17,7 @@
 
 * [Redis](./04_01.%20Redis-in-docker.md)
 * [Anaconda3](./04_02.%20Anaconda3-in-docker.md)
+* [PostgreSQL](./04_03.%20PostgreSQL-in-docker.md)
 
 &nbsp;
 
